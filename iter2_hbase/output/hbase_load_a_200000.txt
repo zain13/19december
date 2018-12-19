@@ -1,0 +1,49 @@
+[WARN]  The 'hbase10' client has been deprecated because HBase 1.0 is EOM. If you are using HBase 1.2+ try using the 'hbase12' client instead.
+java -cp /usr/local/ycsb-0.14.0/hbase10-binding/conf:/usr/local/ycsb-0.14.0/conf:/usr/local/ycsb-0.14.0/lib/HdrHistogram-2.1.4.jar:/usr/local/ycsb-0.14.0/lib/jackson-core-asl-1.9.4.jar:/usr/local/ycsb-0.14.0/lib/core-0.14.0.jar:/usr/local/ycsb-0.14.0/lib/jackson-mapper-asl-1.9.4.jar:/usr/local/ycsb-0.14.0/lib/htrace-core4-4.1.0-incubating.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/protobuf-java-2.5.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-compress-1.4.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/paranamer-2.3.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/findbugs-annotations-1.3.9-1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-lang-2.6.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-httpclient-3.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jaxb-api-2.2.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/htrace-core-3.1.0-incubating.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/api-util-1.0.0-M20.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-net-3.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/log4j-1.2.17.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jcodings-1.0.8.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-codec-1.9.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-auth-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-logging-1.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-cli-1.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jetty-util-6.1.26.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hbase-annotations-1.0.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jackson-mapper-asl-1.8.8.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/netty-all-4.0.23.Final.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/apacheds-i18n-2.0.0-M15.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/httpcore-4.2.4.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-math3-3.1.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hbase-protocol-1.0.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-common-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/guava-12.0.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-el-1.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/activation-1.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-annotations-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-collections-3.2.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/slf4j-api-1.7.25.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-mapreduce-client-core-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-yarn-common-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jackson-core-asl-1.9.4.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jsr305-1.3.9.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/slf4j-log4j12-1.7.7.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-configuration-1.6.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-beanutils-1.7.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-digester-1.8.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/avro-1.7.4.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/xz-1.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/snappy-java-1.0.4.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-io-2.4.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/joni-2.1.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hbase-client-1.0.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hbase10-binding-0.14.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/netty-3.6.2.Final.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hbase-common-1.0.2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/httpclient-4.2.5.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/jsch-0.1.42.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/hadoop-yarn-api-2.5.1.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/xmlenc-0.52.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/commons-beanutils-core-1.8.0.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/api-asn1-api-1.0.0-M20.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/stax-api-1.0-2.jar:/usr/local/ycsb-0.14.0/hbase10-binding/lib/zookeeper-3.4.6.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.db.HBaseClient10 -s -P workloads/workloada -p recordcount=200000 -p table=usertable -p columnfamily=family -load
+Command line: -db com.yahoo.ycsb.db.HBaseClient10 -s -P workloads/workloada -p recordcount=200000 -p table=usertable -p columnfamily=family -load
+YCSB Client 0.14.0
+
+Loading workload...
+log4j:WARN No appenders could be found for logger (org.apache.htrace.core.Tracer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting test.
+2018-12-19 05:27:06:914 0 sec: 0 operations; est completion in 0 second 
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2018-12-19 05:27:16:871 10 sec: 11241 operations; 1124.1 current ops/sec; est completion in 2 minutes [INSERT: Count=11241, Max=149887, Min=386, Avg=784.78, 90=900, 99=4531, 99.9=9759, 99.99=20623] 
+2018-12-19 05:27:26:871 20 sec: 28520 operations; 1727.9 current ops/sec; est completion in 2 minutes [INSERT: Count=17279, Max=9103, Min=349, Avg=572.29, 90=667, 99=1151, 99.9=6751, 99.99=8527] 
+2018-12-19 05:27:36:871 30 sec: 45936 operations; 1741.6 current ops/sec; est completion in 1 minute [INSERT: Count=17416, Max=16479, Min=342, Avg=569.16, 90=672, 99=1114, 99.9=7979, 99.99=13183] 
+2018-12-19 05:27:46:871 40 sec: 63221 operations; 1728.5 current ops/sec; est completion in 1 minute [INSERT: Count=17285, Max=20143, Min=364, Avg=573.55, 90=650, 99=1394, 99.9=7523, 99.99=14519] 
+2018-12-19 05:27:56:871 50 sec: 81985 operations; 1876.4 current ops/sec; est completion in 1 minute [INSERT: Count=18764, Max=21327, Min=332, Avg=529.32, 90=568, 99=1067, 99.9=6087, 99.99=9359] 
+2018-12-19 05:28:06:871 60 sec: 99725 operations; 1774 current ops/sec; est completion in 1 minute [INSERT: Count=17740, Max=13183, Min=357, Avg=560.15, 90=653, 99=880, 99.9=7991, 99.99=10039] 
+2018-12-19 05:28:16:871 70 sec: 117410 operations; 1768.5 current ops/sec; est completion in 50 seconds [INSERT: Count=17685, Max=28623, Min=331, Avg=561.78, 90=597, 99=1788, 99.9=7899, 99.99=19471] 
+2018-12-19 05:28:26:871 80 sec: 126962 operations; 955.2 current ops/sec; est completion in 47 seconds [INSERT: Count=9552, Max=4202495, Min=357, Avg=1043.5, 90=693, 99=3191, 99.9=8495, 99.99=27135] 
+2018-12-19 05:28:36:872 90 sec: 140338 operations; 1337.6 current ops/sec; est completion in 39 seconds [INSERT: Count=13376, Max=466943, Min=366, Avg=743.76, 90=791, 99=4443, 99.9=14471, 99.99=32271] 
+2018-12-19 05:28:46:871 100 sec: 156641 operations; 1630.3 current ops/sec; est completion in 28 seconds [INSERT: Count=16303, Max=13423, Min=360, Avg=609.65, 90=689, 99=1156, 99.9=7743, 99.99=9167] 
+2018-12-19 05:28:56:871 110 sec: 174747 operations; 1810.6 current ops/sec; est completion in 16 seconds [INSERT: Count=18106, Max=12855, Min=351, Avg=548.67, 90=586, 99=1092, 99.9=7371, 99.99=8919] 
+2018-12-19 05:29:06:871 120 sec: 192681 operations; 1793.4 current ops/sec; est completion in 5 second [INSERT: Count=17934, Max=16175, Min=366, Avg=554.12, 90=586, 99=1116, 99.9=7075, 99.99=10327] 
+2018-12-19 05:29:13:071 126 sec: 200000 operations; 1180.48 current ops/sec; [CLEANUP: Count=2, Max=1737727, Min=34, Avg=868625, 90=1737727, 99=1737727, 99.9=1737727, 99.99=1737727] [INSERT: Count=7319, Max=10639, Min=381, Avg=606.26, 90=684, 99=1273, 99.9=8503, 99.99=10263] 
+[OVERALL], RunTime(ms), 126200
+[OVERALL], Throughput(ops/sec), 1584.7860538827258
+[TOTAL_GCS_PS_Scavenge], Count, 144
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 398
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.3153724247226624
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 144
+[TOTAL_GC_TIME], Time(ms), 398
+[TOTAL_GC_TIME_%], Time(%), 0.3153724247226624
+[CLEANUP], Operations, 2
+[CLEANUP], AverageLatency(us), 868625.0
+[CLEANUP], MinLatency(us), 34
+[CLEANUP], MaxLatency(us), 1737727
+[CLEANUP], 95thPercentileLatency(us), 1737727
+[CLEANUP], 99thPercentileLatency(us), 1737727
+[INSERT], Operations, 200000
+[INSERT], AverageLatency(us), 612.525195
+[INSERT], MinLatency(us), 331
+[INSERT], MaxLatency(us), 4202495
+[INSERT], 95thPercentileLatency(us), 752
+[INSERT], 99thPercentileLatency(us), 1954
+[INSERT], Return=OK, 200000
